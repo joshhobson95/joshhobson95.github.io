@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(116, 101, 101);
+   
+ 
+}
+
+.hometag{
+    display: flex;
+    justify-content:space-between
+}
+.rightheader{
+    display: flex;
+  justify-content: end;
+    color: rgb(115, 133, 127);
+}
+.About{
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(224, 224, 224);
+    font-size: 40pt;
+}
+#aboutme{
+display: block;
+margin-top: 300px;
+}
+
+#profilepic{
+    display: flex;
+    justify-content: flex-end;
+    height: 1500px;  
+    width: 3000px;
+}
+.Projects{
+    height: 1500px;
+    display: flex;
+    background-color: black;
+    color: aquamarine;
+}
+.Skills{
+    height: 1500px;
+    display: flex;
+    background-color: white;
+}
+#skillsh3{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.Contact{
+    height: 1500px;
+    display: flex;
+    background-color: black;
+    color: aqua;
+}
+#skillslogo{
+    display: flex;
+    justify-content: left;
+
+    flex-direction: row;
+    height: 55px;   
+    width: 55px;
+}
+#projectsimg1{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+}
