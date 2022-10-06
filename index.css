@@ -1,68 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
-    background-color: rgb(116, 101, 101);
-   
- 
+    background-color: rgb(137, 150, 161);
+    
 }
-
-.hometag{
-    display: flex;
-    justify-content:space-between
+a{
+    text-decoration: none;
 }
-.rightheader{
-    display: flex;
-  justify-content: end;
-    color: rgb(115, 133, 127);
+h3{
+    font-weight: 300;
+    line-height: 1.4;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.fixedheader{
+    background-color: rgb(38, 27, 48);
+    color: white;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    z-index: 9999;
+    width: 100%;
+    top: 0px;
 }
 .About{
     height: 1500px;
-    width: 100%;
+    background-color: black;
+    color: white;
     display: flex;
-    background-color: rgb(224, 224, 224);
-    font-size: 40pt;
+    align-items: flex-start;
+    font-size:  26pt;
+}
+#profilepic{
+    height: 100%;
+    width: 50%;
+    object-fit: scale-down;
 }
 #aboutme{
-display: block;
-margin-top: 300px;
-}
-
-#profilepic{
-    display: flex;
-    justify-content: flex-end;
-    height: 1500px;  
-    width: 3000px;
+    margin-left: 200px ;
+    margin-right: 200px ;
+margin-top: 550px;
 }
 .Projects{
-    height: 1500px;
-    display: flex;
-    background-color: black;
-    color: aquamarine;
+    background-color: aliceblue;
 }
-.Skills{
-    height: 1500px;
-    display: flex;
-    background-color: white;
-}
-#skillsh3{
-    display: flex;
-    justify-content: flex-start;
-    
-}
-.Contact{
-    height: 1500px;
-    display: flex;
-    background-color: black;
-    color: aqua;
+
+#projectsimg1{
+    width: 50%;
 }
 #skillslogo{
+    height: 5%;
+    width: 5%;
     display: flex;
-    justify-content: left;
-
-    flex-direction: row;
-    height: 55px;   
-    width: 55px;
-}
-#projectsimg1{
-    display: flex;
-    height: 500px;
-    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
