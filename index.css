@@ -5,7 +5,8 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
+    scroll-padding-top: 100px;
+    
 }
 body{
     background-color: rgb(137, 150, 161);
@@ -14,6 +15,7 @@ body{
 a{
     text-decoration: none;
 }
+
 /* /////////////////////////////////////////////////////////////////////// */
 .fixedheader{
     background-color: rgb(38, 27, 48);
@@ -30,6 +32,7 @@ a{
 }
 
 .About{
+    
     height: 1500px;
     background-color: black;
     color: white;
@@ -72,6 +75,7 @@ max-width: 50%;
     height: 5%;
     width: 5%;
     display: flex;
+    
     
 }
 #skillsh3{
