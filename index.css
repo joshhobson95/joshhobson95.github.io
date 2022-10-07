@@ -3,16 +3,16 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
 body{
     background-color: rgb(137, 150, 161);
-    
+   
 }
 a{
     text-decoration: none;
-}
-h3{
-    font-weight: 300;
-    line-height: 1.4;
 }
 /* /////////////////////////////////////////////////////////////////////// */
 .fixedheader{
@@ -25,35 +25,61 @@ h3{
     width: 100%;
     top: 0px;
 }
+.hometag{
+    font-size: 30pt;
+}
+
 .About{
     height: 1500px;
     background-color: black;
     color: white;
-    display: flex;
-    align-items: flex-start;
     font-size:  26pt;
+
 }
 #profilepic{
-    height: 100%;
-    width: 50%;
-    object-fit: scale-down;
+    max-width: 50%;
+    max-height: 80%;
 }
 #aboutme{
-    margin-left: 200px ;
-    margin-right: 200px ;
-margin-top: 550px;
+display: flex;
+justify-content: center;
 }
 .Projects{
     background-color: aliceblue;
+    font-size: 26pt;
 }
 
 #projectsimg1{
-    width: 50%;
+max-width: 50%;
+
+}
+.Projects{
+    height: 2000px;
+}
+.Skills{
+    height: 2000px;
+    background-color: black;  
+}
+#skills{
+    margin-top: 1800px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 26pt; 
 }
 #skillslogo{
     height: 5%;
     width: 5%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
+}
+#skillsh3{
+    color:white;
+    font-size: 35pt;;
+}
+.Contact{
+    height: 2000px;
+    background-color: white;
+    font-size: 26pt;
 }
