@@ -1,0 +1,84 @@
+.footer{
+    background-color: 
+    #04031c;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: -2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .footer-column {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+
+  .jh{
+    height: 150px;
+    width: auto;
+  }
+  .pin{
+    height: 75px;
+    width: auto;
+  }
+  .social_icons{
+font-size: 30pt;
+display: flex;
+flex-direction: row;
+  }
+
+  .linkedin{
+    padding: 1rem 0.5rem;
+  }
+  .github{
+    padding: 1rem 0.5rem;
+  }
+
+  @media (min-width:1025px) { 
+    .footer{
+        height: 14vh;
+    }
+    .footer-container{
+        display: flex;
+    }
+.jh{
+   height: 300px;
+    width: 50%;
+    
+}
+.pin{
+    align-self: center;
+    width: 40%;
+}
+.footer-column {
+    padding: 0 10vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  }

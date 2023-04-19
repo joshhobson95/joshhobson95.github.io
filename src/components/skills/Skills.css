@@ -1,0 +1,115 @@
+.skills{
+background-color: black;
+color: white;
+height: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .grid-item {
+    box-sizing: border-box;
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .grid-container img{
+height: 100px;
+width: 100px;
+align-self: center;
+  }
+
+  .skills_h4{
+    font-size: 22pt;
+    background-image: linear-gradient(0deg, rgba(27, 18, 148, 0.76),  rgb(221, 17, 17));
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: Oswald;
+  }
+  .grid-container span{
+    padding: 0.5rem;
+    animation: lights 5s 750ms linear infinite;
+    font-family: Roboto;
+  }
+  
+
+
+
+
+
+
+
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    } }
+
+
+    @media (min-width:1025px) { 
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+          }
+          .grid-container img{
+            height: 200px;
+            width: 200px;
+            align-self: center;
+              }
+              .skills_h4{
+                font-size: 36pt; 
+                margin-bottom: 10rem;
+            }
+            .grid-container span{
+                font-size: 18pt;
+            }
+
+    }
