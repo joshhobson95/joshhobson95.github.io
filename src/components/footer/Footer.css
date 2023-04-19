@@ -39,11 +39,13 @@
 
   .jh{
     height: 150px;
-    width: auto;
+    width: 100px;
+    align-self: center;
   }
   .pin{
     height: 75px;
-    width: auto;
+    width: 75px;
+    align-self: center;
   }
   .social_icons{
 font-size: 30pt;
@@ -68,7 +70,6 @@ flex-direction: row;
 .jh{
    height: 300px;
     width: 50%;
-    
 }
 .pin{
     align-self: center;
@@ -80,5 +81,19 @@ flex-direction: row;
     flex-direction: column;
     justify-content: center;
   }
-
   }
+
+
+  
+@media screen and (min-width: 1024px) and (max-height: 800px) { 
+  .footer{
+    height: fit-content;
+    overflow: none;
+  }
+  .jh{
+    height: 120px;
+    width: auto;
+  }
+
+
+}
