@@ -6,12 +6,23 @@ export const ProjectsData = [
     {
         id: 1,
         title: "Jericho Nursery",
-        date: 'March 2023',
+        date: 'Ongoing',
         img: 'banner',
         img2: 'JerichoCollage',
         links: <a target='_blank' rel="norefferer" href="https://www.figma.com/file/YCpKseKJbWHjyncWnxxIFg/Jericho-Nursery-Designs?node-id=0%3A1&t=q0WPz6S3NpLUGhbM-1">Figma Design</a>,
-        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/Jericho_Draft">GitHub</a>,
-        decsription: "I am excited to be working with Jericho Nursery on their complete website redesign. Over the first half of March, the owners of Jericho and I met to discuss and formulate many different design ideas and concepts that I then executed for them in Figma. You can see all rough draft and final draft options by clicking the Figma button below. Recently we have chosen a final design and I have begun to sculpt this marvelous project using the React framework. I have a working Github repository where you can check out the progress being made by clicking the Github button below."
+        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/Jericho_New">GitHub</a>,
+        links3: <a target="_blank" rel="noreferrer" href="https://jericho-new.onrender.com/">Development Website</a>,
+        decsription: "Throughout my tenure as the main developer for Jericho Nursery, I have embarked on a multifaceted journey, designing elegant web pages using Figma and Canva to create the foundation for functional and visually captivating websites. Collaborating closely with the Jericho Team, I delved into their tastes and desires, crafting designs that align seamlessly with their brand. By incorporating animations and custom stock photos, I ensured a cohesive and engaging online presence. Implementing an intuitive Admin Portal empowered other developers and content creators to effortlessly manage various media types, granting the Jericho Team full control and flexibility in their weekly posts. With an unwavering commitment to excellence, I engineered a mobile-friendly site that seamlessly adapts to user devices, optimized SEO using industry-leading techniques, and spearheaded the development process with resourcefulness. As I continue to serve as the primary developer, I diligently manage updates and oversee the smooth deployment of the website, striving for its continual enhancement and seamless operation."
+    },
+    {
+        id: 2.5,
+        title: "Hello Sunie",
+        date: 'May 2023',
+        img: 'banner',
+        img2: 'Capture',
+        links: <a target='_blank' rel="norefferer" href="https://dev-hello-sunie.pantheonsite.io/">Site Coming Soon</a>,
+        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/sunie-login-react">GitHub</a>,
+        decsription: "I am currently collaborating closely with fellow developers at Hello-Sunie, actively engaging in collaborative tasks to ensure seamless functionality and enhanced accessibility across the entire site. I am conducting extensive research to explore optimal strategies for user access throttling and limitation, meticulously testing various technologies to identify the most effective options. I am playing an integral role in implementing design changes and customizations to the site, actively contributing to enhancing the user interface (UI) through brand-specific menus and other UI elements, ensuring a visually appealing and cohesive user experience. I am currently developing a secure and dynamic Login Page using React, featuring user access throttling based on different account types, seamless login and logout functionality, as well as robust options for password recovery and username retrieval. Additionally, I am contributing to in-depth research on leveraging advanced custom fields and their compatibility with WordPress plugins such as MemberPress and Gravity Forms, ensuring seamless integration and optimal functionality within the WordPress ecosystem, thus enhancing the overall user experience and expanding the capabilities of the website."
     },
 {
     id: 2,
@@ -31,7 +42,6 @@ export const ProjectsData = [
     links: <a target="_blank" rel="noreferrer" href="https://codesandbox.io/s/charming-browser-gj525p?file=/src/App.js">Website</a>,
     links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/Pilytix_roject">GitHub</a>,
     decsription: "A short assessment project done for a potential employer"
-
 },
 {
     id: 4,
@@ -58,7 +68,6 @@ export const ProjectsData = [
     links2: <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=FLNDBtAH4BM&t=1s">Demo Video</a>,
     decsription: "The Shiny Pokemon Checklist is an intuitive and easy way to track a Pokemon player's shiny Pokemon collection. Using its own JSON database, the app simulates a server in order to run the application on your machine locally. The Shiny Pokemon Checklist will keep track of which shiny Pokemon you have found and keep a record of how many you obtain.",
     techstack: "HTML | CSS | Javascript | NodeJS | Axios | Express | Cors"
-
 }
 
 
