@@ -88,7 +88,7 @@ function Contact() {
   <input
     type='text'
     name='reply_to'
-    placeholder='Your email'
+    placeholder='Your email address'
     className='input'
     value={toSend.reply_to}
     onChange={handleChange}
