@@ -92,6 +92,22 @@ function Skills() {
   <img src="https://assets.materialup.com/uploads/b796c2d9-6cd3-4893-a24b-238af96424d2/preview.jpg" alt='' />
   <span>Vectornator & SVG animation</span>
   </div>
+  <div className="grid-item" data-aos='zoom-in'>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt=''/>
+  <span>WordPress</span>
+  </div>
+  <div className="grid-item" data-aos='zoom-in'>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt='' />
+  <span>php</span>
+  </div>
+  <div className="grid-item" data-aos='zoom-in'>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt=''/>
+  <span>Ga4 and SEO Optimization</span>
+  </div>
+  <div className="grid-item" data-aos='zoom-in'>
+  <img src="https://images.g2crowd.com/uploads/product/image/small_square/small_square_477db83f729d63210139ec7cd29c1351/render-render.png" alt=''/>
+  <span>Render Deployment</span>
+  </div>
 </div>
 
 

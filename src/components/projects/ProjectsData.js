@@ -6,12 +6,12 @@ export const ProjectsData = [
     {
         id: 1,
         title: "Jericho Nursery",
-        date: 'Ongoing',
+        date: 'July 2023',
         img: 'banner',
         img2: 'JerichoCollage',
         links: <a target='_blank' rel="norefferer" href="https://www.figma.com/file/YCpKseKJbWHjyncWnxxIFg/Jericho-Nursery-Designs?node-id=0%3A1&t=q0WPz6S3NpLUGhbM-1">Figma Design</a>,
-        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/Jericho_New">GitHub</a>,
-        links3: <a target="_blank" rel="noreferrer" href="https://jericho-new.onrender.com/">Development Website</a>,
+        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/jerichoadmin/Jericho_Website">GitHub</a>,
+        links3: <a target="_blank" rel="noreferrer" href="https://jerichonursery.com/">Website</a>,
         decsription: "Throughout my tenure as the main developer for Jericho Nursery, I have embarked on a multifaceted journey, designing elegant web pages using Figma and Canva to create the foundation for functional and visually captivating websites. Collaborating closely with the Jericho Team, I delved into their tastes and desires, crafting designs that align seamlessly with their brand. By incorporating animations and custom stock photos, I ensured a cohesive and engaging online presence. Implementing an intuitive Admin Portal empowered other developers and content creators to effortlessly manage various media types, granting the Jericho Team full control and flexibility in their weekly posts. With an unwavering commitment to excellence, I engineered a mobile-friendly site that seamlessly adapts to user devices, optimized SEO using industry-leading techniques, and spearheaded the development process with resourcefulness. As I continue to serve as the primary developer, I diligently manage updates and oversee the smooth deployment of the website, striving for its continual enhancement and seamless operation."
     },
     {

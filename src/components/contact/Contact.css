@@ -31,8 +31,8 @@
 .y{
     display: flex;
     justify-content: center;
-
 }
+
 
 .form_button{
     border: 0;
@@ -60,6 +60,10 @@ background-color: rgb(128, 115, 184);
   border-radius: 20px;
   display: flex;
   justify-content: flex-end;
+  color: white;
+ }
+ .contact_form textarea{
+  color: white;
  }
 
 .message_box{
