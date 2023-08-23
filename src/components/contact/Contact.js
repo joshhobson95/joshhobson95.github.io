@@ -67,7 +67,7 @@ function Contact() {
       
       <div className='form_container'>
    <form className='contact_form' onSubmit={onSubmit}>
-    <h5 className='email'>Send me an email here</h5>
+    <h5 className='email'>I have been working on a ton lately but am exctied to hear from you. I am always looking for new and exciting oppurtunies</h5>
 
   <input
     type='text'

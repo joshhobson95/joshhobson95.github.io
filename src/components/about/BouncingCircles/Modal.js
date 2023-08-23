@@ -3,7 +3,7 @@ import p1 from '../../../assets/Josh.jpg'
 import p2 from '../../../assets/Sofia.jpg'
 import p3 from '../../../assets/seattle.jpg'
 import p4 from '../../../assets/window.jpg'
-import './Modal.css'; // Import the CSS file for styling
+import './Modal.css'; 
 
 const Modal = ({ modalId }) => {
   const [showModal, setShowModal] = useState(false);
@@ -50,13 +50,17 @@ const Modal = ({ modalId }) => {
       </div>
 
       {showModal && (
-        <div className="modal">
-          <div className="modalContent">
-            {renderModalContent()}
-            <button onClick={() => setShowModal(false)}>Close</button>
-          </div>
+  <div>
+    <div className="overlay">
+      <div className="modal">
+        <div className="modalContent">
+          {renderModalContent()}
+          <button onClick={() => setShowModal(false)}>Close</button>
         </div>
-      )}
+      </div>
+    </div>
+  </div>
+)}
     </div>
   );
 };

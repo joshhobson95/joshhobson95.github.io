@@ -5,7 +5,7 @@ export const ProjectsData = [
 
     {
         id: 1,
-        title: "Jericho Nursery",
+        title: "Jericho Nursery (NEW!)",
         date: 'July 2023',
         img: 'banner',
         img2: 'JerichoCollage',
