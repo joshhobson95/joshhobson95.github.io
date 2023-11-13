@@ -1,10 +1,19 @@
 
 
 export const ProjectsData = [
-
-
     {
         id: 1,
+        title: "Hello Sunie",
+        date: 'November 2023',
+        img: 'banner',
+        img2: 'HelloSunieCollage',
+        links: <a target='_blank' rel="norefferer" href="https://dev-hello-sunie.pantheonsite.io/">Site Coming Soon</a>,
+        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/sunie-login-react">GitHub</a>,
+        decsription: "A team of developers welcomed me in to help create this SaaS product called Hello Sunie. This product is used by New Mexico utility companies and contractors to manage schedules, billings, invoices, clientele and more for the aforementioned users. During my time with the team, we worked together to solve complex problems and write custom solutions to give Hello Sunie a competitive edge and a unique draw."
+    },
+
+    {
+        id: 2.5,
         title: "Jericho Nursery (NEW!)",
         date: 'July 2023',
         img: 'banner',
@@ -12,17 +21,7 @@ export const ProjectsData = [
         links: <a target='_blank' rel="norefferer" href="https://www.figma.com/file/YCpKseKJbWHjyncWnxxIFg/Jericho-Nursery-Designs?node-id=0%3A1&t=q0WPz6S3NpLUGhbM-1">Figma Design</a>,
         links2: <a target="_blank"  rel="noreferrer" href="https://github.com/jerichoadmin/Jericho_Website">GitHub</a>,
         links3: <a target="_blank" rel="noreferrer" href="https://jerichonursery.com/">Website</a>,
-        decsription: "Throughout my tenure as the main developer for Jericho Nursery, I have embarked on a multifaceted journey, designing elegant web pages using Figma and Canva to create the foundation for functional and visually captivating websites. Collaborating closely with the Jericho Team, I delved into their tastes and desires, crafting designs that align seamlessly with their brand. By incorporating animations and custom stock photos, I ensured a cohesive and engaging online presence. Implementing an intuitive Admin Portal empowered other developers and content creators to effortlessly manage various media types, granting the Jericho Team full control and flexibility in their weekly posts. With an unwavering commitment to excellence, I engineered a mobile-friendly site that seamlessly adapts to user devices, optimized SEO using industry-leading techniques, and spearheaded the development process with resourcefulness. As I continue to serve as the primary developer, I diligently manage updates and oversee the smooth deployment of the website, striving for its continual enhancement and seamless operation."
-    },
-    {
-        id: 2.5,
-        title: "Hello Sunie",
-        date: 'May 2023',
-        img: 'banner',
-        img2: 'Capture',
-        links: <a target='_blank' rel="norefferer" href="https://dev-hello-sunie.pantheonsite.io/">Site Coming Soon</a>,
-        links2: <a target="_blank"  rel="noreferrer" href="https://github.com/joshhobson95/sunie-login-react">GitHub</a>,
-        decsription: "I am currently collaborating closely with fellow developers at Hello-Sunie, actively engaging in collaborative tasks to ensure seamless functionality and enhanced accessibility across the entire site. I am conducting extensive research to explore optimal strategies for user access throttling and limitation, meticulously testing various technologies to identify the most effective options. I am playing an integral role in implementing design changes and customizations to the site, actively contributing to enhancing the user interface (UI) through brand-specific menus and other UI elements, ensuring a visually appealing and cohesive user experience. I am currently developing a secure and dynamic Login Page using React, featuring user access throttling based on different account types, seamless login and logout functionality, as well as robust options for password recovery and username retrieval. Additionally, I am contributing to in-depth research on leveraging advanced custom fields and their compatibility with WordPress plugins such as MemberPress and Gravity Forms, ensuring seamless integration and optimal functionality within the WordPress ecosystem, thus enhancing the overall user experience and expanding the capabilities of the website."
+        decsription: "In the spring, I joined forces with Jericho Nursery to reimagine and execute the redesign of their website, enhancing its functionality and aesthetic appeal. Serving as the sole developer and designer, we met many times looking at design choices, competitors' websites and examples of good web presence online and replicated what we liked about them. On top of the new animations, customized photos and icons, and UX/UI design based around their brand colors, I also added a full backend for their website, allowing their content creators to post blogs, pictures and media directly to the website without using a third party platform. I also worked with their ad agency to use GA4 tactics to boost their SEO to the highest caliber possible."
     },
 {
     id: 2,

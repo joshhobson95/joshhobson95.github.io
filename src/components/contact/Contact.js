@@ -6,7 +6,6 @@ import Swal from 'sweetalert2';
 function Contact() {
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: '',
     message: '',
     reply_to: '',
   });
@@ -30,7 +29,6 @@ function Contact() {
 
       setToSend({
         from_name: '',
-        to_name: '',
         message: '',
         reply_to: '',
       })
@@ -67,7 +65,7 @@ function Contact() {
       
       <div className='form_container'>
    <form className='contact_form' onSubmit={onSubmit}>
-    <h5 className='email'>I have been working on a ton lately but am exctied to hear from you. I am always looking for new and exciting oppurtunies</h5>
+    <h5 className='email'>Send me an Email</h5>
 
   <input
     type='text'
@@ -75,14 +73,6 @@ function Contact() {
     placeholder='Your name'
     className='input'
     value={toSend.from_name}
-    onChange={handleChange}
-  />
-  <input
-    type='text'
-    name='to_name'
-    placeholder='My name (josh)'
-    className='input'
-    value={toSend.to_name}
     onChange={handleChange}
   />
   <input

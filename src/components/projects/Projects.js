@@ -15,6 +15,7 @@ function Projects() {
     <div className='projects'>
     
       <h4>Projects</h4>
+      <span className='swipe'>Swipe to see more..</span>
         <Carousel />
 
     </div>

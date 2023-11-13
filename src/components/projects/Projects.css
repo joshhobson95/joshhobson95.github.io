@@ -16,6 +16,22 @@
   padding: 1rem;
   z-index: 5 !important;
 }
+.swipe{
+display: flex;
+justify-content: center;
+}
+.swipe:hover{
+  animation: fadeOut 1s linear forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 @media (min-width:1025px) { 
   .projects h4{
