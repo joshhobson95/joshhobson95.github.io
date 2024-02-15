@@ -1,0 +1,83 @@
+svg:hover #top_smoke {
+  animation: smoky-hover 2s forwards;
+}
+
+svg:hover #mid_smoke {
+  animation: smoky2-hover 2s forwards;
+}
+
+svg:hover #road {
+  animation: road-hover 2s forwards;
+}
+
+svg:hover #front_wheel, svg:hover #back_wheel {
+  animation: rotate-hover 3s infinite linear;
+}
+
+#front_wheel{
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation-duration: 3s;
+  animation-name: rotate;
+
+ }
+ #back_wheel{
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation-duration: 3s;
+  animation-name: rotate;
+
+ }
+@keyframes smoky-hover {
+  0% {
+      transform: translateX(-95px);
+      opacity: 0.8;
+  }
+  50% {
+      transform: translateX(50px);
+      opacity: 0.5;
+  }
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes smoky2-hover {
+  0% {
+      transform: translateY(-75px);
+      opacity: 0.8;
+  }
+  50% {
+      transform: translateY(30px);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes road-hover {
+  0% {
+      transform: scaleX(1);
+  }
+  20% {
+      transform: scaleX(.5);
+  }
+  50% {
+      transform: scaleX(1.1);
+  }
+  100% {
+      transform: scaleX(1);
+  }
+}
+
+@keyframes rotate-hover {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(2160deg);
+  }
+}

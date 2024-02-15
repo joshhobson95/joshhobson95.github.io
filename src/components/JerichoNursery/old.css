@@ -1,0 +1,699 @@
+.jericho_outer{
+background-color: #242424;
+color: white;
+position: relative;
+}
+.project_top_half{
+    position: relative;
+    height: 100vh;
+}
+.background_image::before {
+    background-image: url('../../assets/Other/cashHouse.jpg');
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover; 
+    opacity: 0.92; 
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(0.7);
+}
+
+.text_box {
+    position: relative;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+   z-index: 4 !important;
+   padding: 20px;
+   padding-top: 250px;
+}
+.header_box{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.header_box h1{
+    font-size: 52pt;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;   
+    text-align: center;
+}
+.text_box p {
+    margin-bottom: 10px;
+    font-size: 21pt;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.paragraph{
+margin-top: 150px;
+}
+
+.short_paragraph{
+    width: 42vw;
+    margin-top: 50px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15vh;
+    z-index: 5;
+    position: relative;
+    padding: 10px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.button_container button{
+    border: none;
+    background-color: #242424; 
+    color: white;
+    font-size: 22pt;
+    font-weight: 500;
+    z-index: 5;
+    height: 6rem;
+    width: 23rem;
+}
+.date_container{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18pt;
+    font-weight: 700;
+    padding: 8px;
+    position: relative;
+    z-index: 4;
+    margin-top: 100px;
+}
+.button_backdrop{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    background-color: #4FA673;
+    height: 6rem;
+    width: 23rem;
+    z-index: 3;
+    margin-right: 100px;
+}
+.project_mid_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tech_used{
+font-size: 30pt;
+align-self: center;
+margin: 100px;
+color: #DBBA4B;
+font-weight: 700;
+text-decoration: underline;
+}
+
+.tech_used_icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 300px;
+}
+
+.svg_div{
+  height: 20rem;
+  width: 20rem;
+  padding: 4rem;
+}
+
+
+.rhomus_container{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rhombus {
+    display: flex;
+    width: 100vw;
+    height: 200vh; 
+    background-color: #CBCBCB; 
+    transform: skew(0deg, -17deg); 
+    margin-top: 750px; 
+    transform-origin: top left;
+    overflow: hidden;
+  }
+
+  .project_details {
+    position: absolute; 
+    transform: skew(0deg, 17deg); 
+    z-index: 1; 
+    width: 100vw;
+    top: 300px;
+    align-self: center;
+  }
+  .project_details_header {
+    display: flex;
+    justify-content: center;
+  }
+  .project_details h1 {
+    font-size: 30pt;
+    text-decoration: underline;
+    color: #95562E;
+  }
+  .mobilenavbar {
+    font-size: 20pt;
+    color: #304b53;
+    margin-top: -20rem;
+  }
+  .mobilenavbar {
+    font-size: 20pt;
+    color: #304b53;
+    margin-top: -20rem;
+  }
+  .mobileadmin {
+    position: absolute;
+    font-size: 20pt;
+    color: #304b53;
+    top: 5rem;
+    right: 40rem;
+  }
+
+
+
+
+
+  .jerichologo{
+    position: absolute;
+    height: 10rem;
+    top: -35vh;
+    right: 2vw;
+  }
+  .jh_logo_container{
+    display: flex;
+    height: 1rem;
+  }
+  .jh{
+    position: relative;
+    height: 20rem;
+    top: 300px;
+    left: -150px;
+  }
+
+
+
+
+
+
+.box_one_container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+  .box_one{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 30rem;
+    height: 60rem;
+    margin-right: 200px;
+    margin-top: -250px;
+  }
+  .mobilenav{
+    position: relative;
+    width: 30rem;
+    height: 60rem;
+    right: 70px;
+    top: 70px;
+  }
+
+
+
+
+  .box_onefive_container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+  .box_onefive{
+    position: absolute;
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 25rem;
+    height: 60rem;
+    margin-right: 300px;
+    margin-top: 200px;
+  }
+  .adminmobile{
+    position: relative;
+    height: 60rem;
+    right: 70px;
+    top: 70px;
+  }
+
+
+  
+  .box_two_container{
+    display: flex;
+    flex-direction: column;
+}
+  .box_two_h1{
+    position: relative;
+    top: -500px;
+    left: 450px;
+    text-decoration: none !important;
+    color: #27373C !important;
+}   
+  .box_two{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    height: 45rem;
+    margin: 100px;
+    margin-top: -420px;
+  }
+  .jerichohome{
+    position: relative;
+    width: 60rem;
+    top: 120px;
+    left: 200px;
+  }
+
+  .navbar_p{
+    z-index: 3;
+    width: 35rem;
+    position: relative;
+    top: -30rem;
+    padding-left: 4rem;
+    font-size: 16pt;
+    color: #000000;
+  }
+  .custom_backend_p{
+    z-index: 3;
+    width: 35rem;
+    position: relative;
+    top: 1rem;
+    padding-left: 4rem;
+    font-size: 16pt;
+    color: #000000;
+  }
+  .mnav_p{
+    position: relative;
+    width: 12rem;
+    top: -15rem;
+    left: -10rem;
+    color: #000000;
+    font-size: 14pt;
+  }
+  .madmin_p{
+    position: relative;
+    width: 12rem;
+    top: 10rem;
+    left: -50rem;
+    color: #000000;
+    font-size: 14pt;
+  }
+
+
+
+
+  .box_three_container{
+    display: flex;
+    flex-direction: column;
+}
+  .box_three_h1{
+    position: relative;
+    left: 450px;
+    text-decoration: none !important;
+    color: #27373C !important;
+}   
+  .box_three{
+    background-color: #27373C;
+    box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 50rem;
+    height: 45rem;
+    margin: 100px;
+  }
+  .jerichohome{
+    position: relative;
+    width: 60rem;
+    top: 120px;
+    left: 200px;
+  }
+
+
+.jh2_logo_container{
+  display: flex;
+  height: 1rem;
+
+
+}
+.jh2{
+  position: relative;
+  height: 20rem;
+  top: -35rem;
+  left: 120rem;
+}
+
+.project_details_header2{
+  display: flex;
+  justify-content: center;
+  margin-top: -12rem;
+}
+
+.more_details{
+  font-size: 30pt;
+align-self: center;
+margin: 100px;
+color: #DBBA4B;
+font-weight: 700;
+text-decoration: underline;
+}
+
+.project_lower_page{
+display: flex;
+justify-content: space-evenly;
+
+}
+.project_lower_page h3{
+font-size: 30pt ;
+padding: 3rem;
+}
+.project_lower_left{
+width: 40vw;
+text-align: center;
+margin: 2rem;
+
+}
+.project_lower_right{
+  width: 40vw;
+  text-align: center; 
+  margin: 2rem;
+  font-size: 1.75rem;
+}
+.lower_right_p{
+  margin: 0rem 7rem;
+}
+
+.icons_grid{
+  display: grid;
+  grid-template-columns: repeat(2, 20vw);
+  grid-template-rows: repeat(2, 20vw);
+  gap: 10px; 
+}
+
+
+.jericho_icons{
+  height: 17rem;
+  padding-left: 2.5rem;
+}
+
+.seminar_icon{
+  width: 20rem;
+  padding: 3.5rem;
+}
+.deliveryvan_icon{
+  width: 20rem;
+  padding: 3.5rem;
+}
+.loading_icon{
+  width: 40rem;
+  padding: 3.5rem;
+}
+
+
+@media screen and (max-width: 2400px) {
+ .text_box p{
+  font-size: 18pt;
+ }
+ .date_container{
+  margin-top: 6rem;
+ }
+ .tech_used{
+  font-size: 25pt;
+ }
+
+
+ .tech_used_icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 300px;
+}
+
+.svg_div{
+height: 20rem;
+width: 20rem;
+padding: 2rem;
+}
+.jh{
+  top: 100px;
+}
+.rhombus{
+  margin-top: 540px;
+}
+.box_one{
+  width: auto;
+  height: 50rem;
+  margin-right: 100px;
+}
+.mobilenav {
+  width: auto;
+  height: 50rem;
+}
+.jerichologo{
+  top: -30vh;
+}
+.project_details h1{
+  font-size: 25pt;
+}
+.box_two{
+  width: 45rem;
+  height: 39rem;
+}
+.jerichohome {
+  position: relative;
+  width: 50rem;
+  top: 140px;
+  left: 70px;
+}
+.box_onefive {
+  position: absolute;
+  background-color: #27373C;
+  box-shadow: 14px 11px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 25rem;
+  height: 60rem;
+  margin-right: 100px;
+  margin-top: 200px;
+}
+.mobileadmin {
+  right: 28rem;
+}
+.madmin_p {
+  left: -39rem;
+}
+.jh2 {
+  position: relative;
+  height: 20rem;
+  top: -29rem;
+  left: 90rem;
+}
+.more_details {
+  font-size: 25pt;
+  align-self: center;
+  margin: 100px;
+  color: #DBBA4B;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.project_lower_page h3 {
+  font-size: 27pt;
+  padding: 3rem;
+}
+
+}
+
+
+@media screen and (max-width: 1860px) {
+  .button_container {
+    margin-right: 0px;
+}
+.date_container {
+  margin-top: 1rem;
+}
+.tech_used_icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 70px;
+}
+.svg_div {
+    padding: 2rem;
+}
+.box_one {
+  width: auto;
+  height: 45rem;
+  margin-right: 50px;
+}
+
+.mobilenav {
+  width: auto;
+  height: 45rem;
+}
+.mobilenavbar {
+  position: relative;
+  left: 85px;
+}
+.mnav_p {
+  top: -15rem;
+  left: -4rem;
+}
+.box_two{
+  height: 30rem;
+  width: 35rem;
+  margin-left: 50px;
+}
+.jerichohome{
+  width: 40rem;
+  top: 110px;
+}
+.box_onefive {
+  height: 45rem;
+  margin-right: 50px;
+}
+.mobileadmin {
+  right: 18rem;
+}
+.madmin_p {
+  left: -30rem;
+}
+.box_three {
+  height: 30rem;
+  width: 35rem;
+  margin-left: 50px;
+}
+.jerichologo {
+  height: 8rem;
+}
+.jh2 {
+  position: relative;
+  height: 20rem;
+  top: -25rem;
+  left: 75rem;
+}
+.seminar_icon {
+  padding: 2rem;
+}
+.deliveryvan_icon {
+  padding: 2rem;
+}
+.loading_icon {
+  width: 30rem;
+  padding: 2rem;
+}
+.jericho_icons {
+  height: 12rem;
+  padding-left: 4rem;
+}
+.lower_right_p {
+  margin: 0rem 4rem;
+  font-size: 18pt;
+}
+
+}
+
+
+@media screen and (max-width: 1650px) {
+  .paragraph p{
+  font-size: 16pt;
+}
+.button_container button {
+  font-size: 18pt;
+  z-index: 5;
+  height: 5rem;
+  width: 18rem;
+}
+.button_backdrop {
+  height: 5rem;
+  width: 18rem;
+}
+.date_container {
+  margin-top: 3.5rem;
+}
+.jh {
+  position: relative;
+  height: 16rem;
+  top: 75px;
+  left: -150px;
+}
+.rhombus {
+  margin-top: 400px;
+  height: 145vh;
+}
+.mobilenav {
+  width: auto;
+  height: 40rem;
+}
+.box_one {
+  height: 40rem;
+}
+.box_onefive {
+  height: 40rem;
+  width: 300px;
+}
+.adminmobile {
+height: 40rem;
+}
+.navbar_p {
+  font-size: 14pt;
+}
+
+.custom_backend_p {
+    font-size: 14pt;
+}
+.jerichohome {
+  width: 30rem;
+  top: 110px;
+}
+.mobileadmin {
+  right: 16rem;
+}
+.madmin_p {
+  left: -26rem;
+}
+.project_details h1 {
+  font-size: 20pt;
+}
+.box_two {
+  height: 25rem;
+  width: 28rem;
+}
+.box_three{
+  height: 25rem;
+  width: 28rem;
+}
+
+.icons_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 15vw);
+  grid-template-rows: repeat(2, 15vw);
+  gap: 100px;
+  margin-left: -8vw;
+}
+.seminar_icon {
+  padding: 4rem;
+}
+.deliveryvan_icon {
+  padding: 4rem;
+}
+.loading_icon {
+  width: 15rem;
+  padding: 6rem;
+}
+.jericho_icons {
+  height: 8rem;
+  padding-left: 8rem;
+  padding-top: 6rem;
+}
+
+
+
+}

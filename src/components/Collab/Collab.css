@@ -1,0 +1,878 @@
+body {
+    margin: 0;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    max-width: 100vw;
+  }
+
+.collab_background_image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../assets/Other/chitown.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.92;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(0.65);
+    z-index: 1;
+}
+.project_outer_shell{
+    background-color: #242424;
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden; 
+    height: auto;
+}
+
+.project_top_text{
+    margin-top: 12.5rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index: 4 !important;
+}
+.project_top_text h1{
+font-size: 2rem;
+text-align: center;
+}
+.project_top_text p{
+margin: 1rem;
+padding-top: 4rem;
+}
+
+.collab_button_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    width: 100vw;
+    padding-top: 2rem;
+    margin-right: 12rem;
+    overflow: hidden;
+}
+
+.collab_button_container button {
+    border: none;
+    background-color: #242424; 
+    color: white;
+    font-size: 14pt;
+    font-weight: 500;
+    z-index: 5;
+    height: 3.5rem;
+    width: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+    -15px -15px 0 0px #0C4A80; 
+    cursor: pointer;
+    position: relative;
+    
+}
+.collab_button_container button:after {
+    content: '»';
+    color: #ffffff;
+    font-size: 28pt;
+    position: absolute;
+    opacity: 0;
+    top: 46%;
+    right: 0px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    
+  }
+  
+  .collab_button_container button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .collab_button_container button:hover {
+    transition: .5s;
+    background-color: #0C4A80; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 4px, 
+    -5px -5px 0 0px #242424; 
+  }
+
+.collab_date_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    z-index: 3;
+    padding-right: 20px;
+}
+.collab_project_mid_page{
+    margin-top: 2rem;
+    height: auto;
+    width: 100vw;
+    background-color: #242424;
+    position: relative;
+    z-index: 1;
+}
+.collab_tech_used{
+display: flex;
+justify-content: center;
+}
+
+.collab_project_mid_page h1{
+    align-self: center;
+    color: #A7CEBF;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+.tech_icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-top: 2rem;
+}
+.tech_icons img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.j_key_features{
+    width: 100vw;
+    position: relative;
+    z-index: 5;
+    margin-top: 18vh;
+}
+
+.j_key_features h1{
+    display: flex;
+    justify-content: center;
+    color: #95562E;
+}
+.kf2{
+    color: #0C4A80 !important;
+}
+
+.key_grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.key_grid_one_c{
+margin-top: 10vh;
+}
+.key_grid_one_inner{
+    display: flex;
+}
+
+.key_grid_two_c{
+position: relative;
+z-index: 6;
+}
+
+
+
+.collab_project_lower_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    margin-top: 20%; 
+    padding-bottom: 10vh;
+}
+.collab_project_lower_page h1{
+    align-self: center;
+    color: #A7CEBF;
+    text-decoration: underline;
+}
+
+.splp_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    color: white;
+    margin: 1.2rem;
+}
+
+.splp_inner_1{
+margin-bottom: 5vh;
+}
+
+.splp_2 h3{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_container2{
+    position: absolute;
+    z-index: 3 !important;
+    width: 100%;
+    height: 120vh;
+}
+
+
+.j_key_features {
+    position: relative;
+  }
+  .key_grid_background_c {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 60rem;
+    background-color: #cbcbcb;
+    z-index: -1;
+    transform: skew(0deg, -12deg); 
+  }
+
+
+.collab_mainpage{
+    width: 95vw;
+    margin: 1rem;
+}
+.collab_mainpage1 {
+    width: 90vw;
+    margin: 1rem;
+    margin-left: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, /* Current shadow */
+                -15px -15px 0 0px #27373C; /* Second shadow, further adjusted position */
+}
+
+.collab_img{
+    width: 85vw;
+    margin: 1rem;
+    margin-left: 3.5rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+    -15px -15px 0 0px #27373C; 
+    
+}
+.collab_img2{
+    width: 85vw;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+    -15px -15px 0 0px #27373C;
+    
+}
+.inner_square_j{
+    height: auto;
+}
+.emailstuff{
+    width: 90vw;
+    margin: 0.5rem;
+}
+.admin_j{
+    margin: 1rem;
+    margin-left: 4rem;
+    width: 60vw;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+    -15px -15px 0 0px #27373C; 
+
+}
+.editblog{
+    margin: 1rem;
+    margin-left: 1.5rem;
+width: 90vw;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+-15px -15px 0 0px #27373C; 
+
+}
+.j_inner_square2{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_container{
+    display: flex;
+    justify-content: flex-end;
+}
+.collab_logo{
+width: 32vw;
+margin: 1rem;
+}
+.jh_container{
+    position: relative;
+   top: 8rem;
+}
+.jh_logo{
+    width: 14.5vw;
+    padding-left: 2rem;
+}
+.jh_container2{
+display: flex;
+justify-content: flex-end;
+position: relative;
+top: -8rem;
+}
+.jh_logo2{
+    width: 14.5vw;
+    padding-right: 2rem;
+    padding-top: 4rem;
+}
+.acf_container{
+    display: flex;
+    justify-content: center;
+}
+.key_grid_one_c p{
+    margin: 0.5rem 2rem;
+    font-size: 10pt;
+}
+.key_grid_two_c p{
+    margin: 0.5rem 2rem;
+    font-size: 10pt;
+}
+.inner_square2{
+    padding-top: 1rem;
+}
+.customplugin_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.customplugin_j{
+    width: 85vw;
+    margin: 1rem;
+}
+.graphing_container_j{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.loading_icon{
+display: flex;
+justify-content: center;
+}
+.mobilenav{
+    margin: 1.5rem;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+-15px -15px 0 0px #27373C; 
+}
+.mobilehome{
+    margin: 1.5rem;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px, 
+-15px -15px 0 0px #27373C; 
+}
+.hover_span_container{
+    display: flex;
+    justify-content: center;
+}
+.hover_span{
+    font-size: 8pt;
+    margin: 0.75rem;
+    color: #478ba7;
+}
+
+.collab_page{
+    width: 95vw;
+    padding: 1rem;
+}
+.collab_image_frame{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.collab_mobile{
+    width: 40vw;
+    margin: 1rem;
+}
+.yarn_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.yarn_img{
+    width: 80vw;
+}
+.custom_icon_container{
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-top: 3rem;
+}
+
+
+
+
+  
+@media screen and (min-width: 750px) {
+    .project_top_text h1 {
+        font-size: 4rem;
+    }
+    .project_top_text p {
+        margin: 1rem;
+        padding-top: 4rem;
+        font-size: 16pt;
+    }
+    .collab_date_container {
+        font-size: 14pt;
+    }
+    .tech_icons{
+        padding-top: 4rem;
+    }
+    .tech_icons img {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+    .collab_project_mid_page h1{
+        font-size: 1.5rem;
+    }
+    .key_grid {
+        margin-left: 1rem;
+    }
+    .key_grid_background {
+        top: -42px;
+        height: 125rem;
+    }
+    .key_grid h2{
+        font-size: 1.25rem;
+    }
+
+    .collab_button_container button {
+        font-size: 18pt;
+        height: 4.5rem;
+        width: 12.5rem;
+    }
+
+    .collab_project_lower_page h1 {
+        font-size: 1.5rem;
+    }
+    .splp_2 h3 {
+    font-size: 1.25rem;
+    }
+    .splp_2 p {
+        font-size: 16pt;
+    }
+    .graphing_container_j{
+        flex-direction: row;
+    }
+    .mobilehome {
+        width: 40vw;
+    }
+    .mobilenav {
+        width: 40vw;
+    }
+
+  
+
+}
+
+@media screen and (min-width: 990px) {
+    .project_top_text h1 {
+        font-size: 5rem;
+    }
+    .tech_icons img {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+
+    .key_grid_background {
+        height: 155rem;
+    }
+    .eventdetails {
+        height: 45vh;
+        margin: 7rem;
+    }
+    .collab_project_lower_page {
+        margin-top: 0;
+    }
+
+    .jh_logo{
+        width: 11.5vw;
+    }
+    .jh_logo2{
+        width: 11.5vw;
+    }
+    .graphing_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .mobilehome{
+        width: 45vw;
+    }
+    .mobilenav{
+        width: 45vw;
+    }
+    .key_grid_one_c p {
+        font-size: 12pt;
+    }
+    .key_grid_two_c p {
+        font-size: 14pt;
+    }
+    .icons_grid{
+        display: flex;
+    }
+    .seminar_icon{
+        width: 35vw;
+    }
+    .deliveryvan_icon{
+        width: 35vw;
+    }
+    .loading_icon{
+        width: 35vw;
+    }
+    .hover_span_container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .hover_span{
+        font-size: 11pt;
+    }
+    .mobilenav {
+        width: auto;
+        height: 45vh;
+        margin: 5rem;
+    }
+    .mobilehome {
+        width: auto;
+        height: 45vh;
+        margin: 5rem;
+    }
+    .customplugin_j {
+        width: 50vw;
+        margin: 1rem;
+    }
+    .collab_page{
+        width: 65vw;
+    }
+    .collab_mobile {
+        width: 30vw;
+    }
+    .key_grid_background_c {
+        height: 148rem;
+    }
+    .custom_icons{
+        font-size: 16pt;
+    }
+
+
+}
+
+@media screen and (min-width: 1250px) {
+
+    .project_top_text h1{
+        font-size: 7rem;
+        margin: 3.5rem;
+    }
+
+    .project_top_text p {
+        margin: 3rem 16rem !important;
+        font-size: 18pt;
+        text-align: center;
+    }
+    .collab_button_container button {
+        font-size: 20pt;
+        height: 5.5rem;
+        width: 14.5rem;
+    }
+
+    .key_grid_one_c{
+        margin-bottom: 21vh;
+    }
+
+    .key_grid h2{
+        font-size: 1.5rem;
+    }
+    .key_grid_background {
+        top: -100px;
+        height: 220rem;
+    }
+    .tech_icons{
+        padding-bottom: 9rem;
+    }
+    .collab_project_lower_page {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    }
+    
+    .jh_logo{
+        width: 8.5vw;
+    }
+    .jh_logo2{
+        width: 8.5vw;
+    }
+    .collab_logo {
+        width: 25vw;
+        margin-right: 2rem;
+    }
+    .key_grid_one_c p {
+        font-size: 14pt;
+    }
+    .key_grid_two_c p {
+        font-size: 14pt;
+    }
+    .admin_j {
+        width: 35vw;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .mainpage {
+        width: 47vw;
+        margin: 1rem;
+    }
+    .bigicons {
+        width: 49vw;
+        margin: 1rem;
+        padding-left: 44rem;
+    }
+
+    .emailstuff {
+        height: 50vh;
+        width: auto;
+        margin: 0.5rem;
+    }
+    .inner_square2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .metabox {
+        width: 19vw;
+        margin: 1rem;
+    }
+    .eventdetails {
+        height: 45vh;
+        margin: 0rem;
+    }
+    .key_grid h2 {
+       margin-top: 100px;
+    }
+    .customplugin_j {
+        width: 30vw;
+        margin: 1rem;
+    }
+    .collab_project_mid_page{
+        margin-top:8rem;
+    }
+    .collab_mobile {
+        width: 20vw;
+    }
+    .key_grid_background_c {
+        height: 188rem;
+    }
+    .collab_page {
+       padding-top: 2rem;
+    }
+    .custom_icons{
+        font-size: 18pt;
+    }
+}
+
+
+@media screen and (min-width: 1750px) {
+    .inner_square_j {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bigicons {
+        width: 47vw;
+        margin: 1rem;
+        padding-left: 1rem;
+    }
+    .mainpage {
+        width: 47vw;
+        margin: 1rem;
+    }
+    .emailstuff {
+        height: 45vh;
+        width: auto;
+        margin: 0.5rem;
+    }
+    .key_grid_two_inner{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .eventdetails {
+        padding-left: 5rem;
+    }
+    .project_top_text p {
+        margin: 2rem 12rem;
+        padding-top: 4rem;
+        font-size: 16pt;
+    }
+    .metabox {
+        width: 14vw;
+        margin: 1rem;
+    }
+    .key_grid_background {
+        top: -100px;
+        height: 150rem;
+    }
+    .collab_project_lower_page {
+    margin-top: 0%;
+    }
+        
+    .jh_logo{
+        width: 6.5vw;
+    }
+    .jh_logo2{
+        width: 6.5vw;
+    }
+    .collab_logo {
+        width: 15vw;
+        margin-right: 18rem;
+    }
+    .project_top_text h1 {
+        font-size: 8rem;
+        margin: 0 20rem;
+        margin-top: 4rem;
+    }
+
+    .jh_container {
+        position: relative;
+        top: 5rem;
+    }
+    .key_grid_background {
+        top: -340px;
+        height: 167rem;
+    }
+    .collab_project_mid_page h1 {
+        font-size: 2.5rem;
+    }
+    .collab_project_lower_page h1 {
+        font-size: 2.5rem;
+    }
+    .key_grid h2 {
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .tech_icons img {
+        height: 9rem;
+        width: 9rem;
+    }
+    .tech_icons {
+        padding-top: 7rem;
+    }
+    .logo_container {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -5rem;
+    }
+    .splp_2{
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .splp_2 h3{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .splp_inner_1 {
+        margin: 4rem;
+        width: 40vw;
+    }
+    .splp_inner_2{
+        margin: 4rem;
+        width: 40vw;
+    }
+    .kf{
+        margin-top: -10vh !important;
+    }
+    .collab_date_container{
+        margin-top: 10rem;
+    }
+    .project_top_text p {
+        margin: 5rem 26rem;
+        padding-top: 4rem;
+        font-size: 22pt;
+        text-align: center;
+    }
+    .graphing_container {
+   width: 45vw;
+    }
+
+    .customplugin_j {
+        width: 45vw;
+        padding-top: 1rem;
+    }
+
+    .collab_mainpage1 {
+        width: auto;
+        height: 50vh;
+    }
+    .collab_img {
+        width: auto;
+        height: 25vh;
+    }
+    .collab_img2 {
+        width: auto;
+        height: 25vh;
+    }
+    .editblog {
+        width: auto;
+        height: 40vh;
+    }
+    .admin_j {
+        width: 20vw;
+        height: auto;
+    }
+    .j_inner_square2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .key_grid_one_inner {
+        display: flex;
+        justify-content: center !important;
+    }
+    .customplugin_j {
+        width: 20vw;
+        padding-top: 1rem;
+    }
+    .mobilehome {
+        width: auto;
+        height: 65vh;
+        margin: 2rem;
+    }
+    .mobilenav {
+        width: auto;
+        height: 65vh;
+        margin: 2rem;
+    }
+    .collab_page {
+        width: 45vw;
+    }
+    .collab_mobile {
+        width: 15vw;
+    }
+    .yarn_img {
+        width: 50vw;
+    }
+    .key_grid_one_c{
+        margin: 10rem;
+    }
+    .key_grid_one_c p {
+        font-size: 16pt;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+    .key_grid_two_c{
+        margin: 10rem;
+    }
+    .key_grid_two_c p {
+        font-size: 16pt !important;
+        margin: 4rem 0rem;
+        margin-right: 30rem;
+    }
+
+
+
+
+
+    
+    
+
+}
+
+
+
+
+
+
+

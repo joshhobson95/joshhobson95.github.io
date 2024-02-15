@@ -1,0 +1,25 @@
+.menualpha{
+    position: absolute;
+    background-color: #242424;
+    z-index: 20;
+    color: white;
+    width: 100vw;
+    top: 50%;
+    justify-items: center;
+}
+.menu_inner{
+    margin: 2rem;
+}
+.menu_inner h1{
+    font-size: 30pt;
+}
+.menu_inner li{
+    font-size: 20pt;
+    padding: 0.5rem;
+}
+.menu_inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

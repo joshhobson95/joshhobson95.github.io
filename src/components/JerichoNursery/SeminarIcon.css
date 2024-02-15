@@ -1,0 +1,97 @@
+svg #yellow_dots_s_1 {
+  fill: #dbba4b; /* Initial fill color */
+  animation: none;
+}
+
+svg #small_dots {
+  fill: #95562E; /* Initial fill color */
+  animation: none;
+}
+
+svg #more_dots {
+  fill: #4fa673; /* Initial fill color */
+  animation: none;
+}
+
+svg #background_si {
+  fill: #95562E; /* Initial fill color */
+  animation: none;
+}
+
+svg #seminar_icon {
+  animation: none;
+}
+
+svg:hover #yellow_dots_s_1 {
+  animation: swirl 2s ease-in forwards;
+}
+
+svg:hover #small_dots {
+  animation: swirl2 2s ease-in forwards;
+}
+
+svg:hover #more_dots {
+  animation: swirl3 2s ease-in forwards;
+}
+
+svg:hover #background_si {
+  animation: wave6 2s;
+}
+
+svg:hover #seminar_icon {
+  animation: fadeIn 2s;
+}
+
+@keyframes swirl {
+  0% {
+      transform: rotate(0deg) translate(100px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translate(0px) rotate(-360deg);
+      animation-timing-function: ease-in 1s;
+  }
+}
+
+@keyframes swirl2 {
+  0% {
+      transform: rotate(0deg) translate(200px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg) translate(0px) rotate(360deg);
+      animation-timing-function: ease-in 1s;
+  }
+}
+
+@keyframes swirl3 {
+  0% {
+      transform: rotate(0deg) translate(150px) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translate(100px) rotate(-360deg);
+      animation-timing-function: ease-in 1s;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes wave6 {
+  0% {
+      transform: translateX(-100%);
+  }
+  25% {
+      transform: translateX(-45%);
+  }
+  50% {
+      transform: translateX(-50%);
+  }
+  100% {
+      transform: translateX(1);
+  }
+}
