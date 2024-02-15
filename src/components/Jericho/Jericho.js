@@ -95,7 +95,7 @@ function Jericho() {
 
           <div className='key_grid_one_j'>
             <h2>A New React App</h2>
-            <p>Jericho Nursery wanted their website faster, more responsive, and to have a robust and strong infastructure surrounding their main featureus of the website; their blogs, images, videos and podcasts. What better way to do this than swithcing them over to a React App.</p>
+            <p>Jericho Nursery wanted their website faster, more responsive, and to have a robust and strong infastructure surrounding their main featureus of the website; their blogs, images, videos and podcasts. What better way to do this than swithcing them over to a React App?</p>
           <div className='key_grid_one_inner'>
               <div className='inner_square_j'>
               <img className='jericho_mainpage1' src={Home1} alt=''/>
@@ -110,7 +110,7 @@ function Jericho() {
 
                     <div className='key_grid_two_j'>
                       <h2>Custom NodeJS Backend</h2>
-                      <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to HelloSunie's efforts in building a stellar product</p>
+                      <p>Next, I developed a custom Node.js backend linked to a SQL database, tailored for rapid storage and retrieval of blogs and images. This solution included custom-built administrative pages enabling seamless posting, editing, deletion, and management of content by administrators. By optimizing data structures and implementing efficient query mechanisms, the system ensures swift performance while offering intuitive user interfaces for streamlined content management</p>
           <div className='key_grid_two_inner'>
           <div className='j_inner_square2'>
           <img className='editblog' src={editblog} alt=''/>
@@ -143,7 +143,7 @@ function Jericho() {
 <div className='splp_inner_1'>
   <h3>Icons and Assets</h3>
   <p>
-  In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
+  I crafted custom icons, utilizing SVGs designed to be responsive across various mobile layouts. Some of these icons featured animations, injecting vibrancy into pages and enhancing the aesthetics of the navbar. This bespoke approach not only imbued the website navigation with a unique charm but also contributed to an engaging user experience, elevating the overall visual appeal of the website
   </p>
   <div className='customplugin_container_j'>
     <div className='customplugin_j_container'>
@@ -170,7 +170,7 @@ function Jericho() {
 <div className='splp_inner_2'>
   <h3>Custom Mobile Styling</h3>
   <p>
-  In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
+  In optimizing the mobile styling, I implemented tailored features specifically designed for enhanced accessibility on smaller screens. Unique elements were strategically added to the mobile layout, ensuring seamless navigation and improved user experience. Notably, a thoughtfully crafted mobile navigation system was introduced, distinct from its desktop counterpart yet unified through the incorporation of the same stunning icons
   </p>
 <div className='graphing_container_j'>
   <img className='mobilehome' src={mobilehome} alt=''/>

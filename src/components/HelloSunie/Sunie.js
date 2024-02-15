@@ -23,7 +23,7 @@ function Sunie() {
 
           <h1>Hello Sunie Software Development</h1>
 
-          <p>A team of developers welcomed me in to help create this SaaS product called Hello Sunie. This product's intended use is New Mexico utility companies and contractors to manage schedules, billings, invoices, clientele and more. During my time with the team, we worked together to solve complex problems and write custom solutions to give Hello Sunie a competitive edge and a unique draw.</p>
+          <p>I was welcomed by a team of brilliant developers to contribute to the creation of Hello Sunie, a cutting-edge SaaS product tailored for New Mexico utility companies and contractors. Our mission: to streamline schedules, manage billings, handle invoices, and cater to clientele needs with finesse. Collaborating closely with the team, we tackled intricate challenges head-on, crafting bespoke solutions to ensure Hello Sunie stands out from the competition, offering a unique draw</p>
         </div>
 
         
@@ -71,7 +71,7 @@ function Sunie() {
 
           <div className='key_grid_one'>
             <h2>HTML Buildout</h2>
-            <p>In the execution of the HelloSunie project, I meticulously crafted the HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience, demonstrating proficiency in web development and attention to detail</p>
+            <p>In driving forward the HelloSunie project, I crafted HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience. Utilizing my expertise in web development, I professionally employed shortcodes to inject HTML and PHP into the WordPress site, setting up the bare bones of the website with proficiency and attention to detail</p>
           <div className='key_grid_one_inner'>
               <div className='inner_square'>
               <img className='mainpage' src={mainpage} alt=''/>
@@ -127,7 +127,7 @@ function Sunie() {
 <div className='splp_inner_2'>
   <h3>Handling and Graphing Data</h3>
   <p>
-  In overseeing the data direction for specific service and project views, I meticulously curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
+  In overseeing the data direction for specific service and project views, I curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
   </p>
   <div className='graphing_container'>
   <img className='details' src={details} alt=''/>

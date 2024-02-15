@@ -84,7 +84,7 @@ function Collab() {
 
                     <div className='key_grid_two_c'>
                       <h2>With responsive expertise</h2>
-                      <p>I was given a number of websites and exmaples that contributed greatly to the design created. When given the information needed, I was able to craft exactly what was in the mind of the Collaborative Counselling team</p>
+                      <p>I was given a number of websites and exmaples that contributed greatly to the design created. When given the information needed, I was able to craft exactly what was in the mind of the Collaborative Counselling team. Furthermore, I was given a graphic design assignemnt wherein an idea was described to me and I had to bring it to life; you can see the "Yarn Poster" below</p>
           <div className='key_grid_two_inner_c'>
           <div className='collab_image_frame'>
             <img className='collab_mobile' src={mobile} alt=''/>

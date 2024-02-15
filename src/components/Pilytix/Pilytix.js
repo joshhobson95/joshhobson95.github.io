@@ -16,7 +16,7 @@ function Pilytix() {
 
 
           <h1>Pilytix Assesment</h1>
-          <p>A short assesement for Potential Employer, Pilytix. I completed this graphing application with no prior knowledge of graping packages, and did the entire project in 6 hours</p>
+          <p>A short assesement for potential employer, Pilytix. I was given a time-sensitive task using foreign technologies I had to master on the spot. I was quite pleased with the results</p>
         </div>
 
         
@@ -73,7 +73,7 @@ function Pilytix() {
 
           <div className='key_grid_one'>
             <h2>Using Graph JS</h2>
-            <p>This project mostly revolved around picking a Graphing Package that worked in React, and implementing it to create an internal tool for employees to use to look at the data the Pilytix provides to their customers. I was given a table of dummy data in order to populate the application</p>
+            <p>The project mainly focused on choosing a React-compatible graphing package and integrating it to create an internal tool for employees to analyze Pilytix's customer data. I efficiently populated the application using provided dummy data and allocated time to design it with their brand colors, enhancing usability.</p>
           <div className='key_grid_one_inner_p'>
               <div className='pilytix_images'>
                 <img src={home}  alt=''/>

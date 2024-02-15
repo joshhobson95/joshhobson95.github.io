@@ -77,7 +77,7 @@ function Shiny() {
 
           <div className='key_grid_one'>
             <h2>From the Ground Up</h2>
-            <p>The biggest part of this project for me was doing it independently. I built a database of over 1000 Pokemon that worked in conjuction with the NodeJS backend also done from the ground up. </p>
+            <p>My first React project, developed during my time at the Devmountain Bootcamp, was a shiny Pokémon checklist—a full-stack endeavor incorporating a Node.js backend and SQL database. This comprehensive application included features such as login authentication, user management, and a wiki. Notably, I implemented a dynamically styled page showcasing all Pokémon, coloring them in from grayscale only after they were added to the user's account, providing a visually engaging and personalized experience for users. The biggest challenge for me was doing this completly independently for the first time, but really helped me learn about what I was capable of </p>
           <div className='key_grid_one_inner_p'>
           <div class="video-container">
   <iframe src="https://www.youtube.com/embed/ThggW3BITFU" frameborder="0" allowfullscreen></iframe>
