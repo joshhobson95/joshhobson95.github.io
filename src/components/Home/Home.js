@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {useState, useEffect, useRef } from 'react';
 import ParticleBackdrop from '../Background/ParticleBackdrop';
 import './Home.css'
 import Modal from './Modal';
@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 
 function Home() {
+  const [visible, setVisible] = useState(true);
 
     const modalRef = useRef(null);
 
@@ -25,6 +26,14 @@ function Home() {
           modalElement.style.display === 'none' ? 'block' : 'none';
       }
     };
+
+    useEffect(() => {
+      const timeoutId = setTimeout(() => {
+        setVisible(false);
+      }, 7000);
+  
+      return () => clearTimeout(timeoutId);
+    }, []);
   
 
 
@@ -39,11 +48,12 @@ function Home() {
             <div className="inner_left">
             <h1 className="JoshHobson">Josh Hobson</h1>
             <h1>Web Developer</h1>
+            {visible && <span className='clickhere'>Click here for Contact Info</span>}
             </div>
         </div>
 
 </div>
-
+<span>click me</span>
 <div className="white_square" onClick={toggleModalVisibility}>
   <p className='x'>x</p>
 </div>

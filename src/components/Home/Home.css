@@ -29,6 +29,9 @@ overflow: hidden;
     transition: all 0.4s ease;
     animation: pulse 2s infinite;
 }
+.clickhere{
+    font-size: 10pt;
+}
 
 
 @keyframes pulse {
