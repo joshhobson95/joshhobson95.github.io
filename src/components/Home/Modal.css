@@ -218,7 +218,9 @@ border: 1px solid #242424;
 
 
 
+
 @media screen and (min-width: 1100px) { 
+
     .modal_outer{
         position: relative;
         z-index: 3;

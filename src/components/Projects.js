@@ -35,48 +35,48 @@ function Projects() {
 
 
             <div className='grid_item_projects'>
+            <NavLink to='/hellosunie'>
             <div className='cashHouse_text'>
                             <h1>Hello Sunie Software Development</h1>         
                     </div>
-            <NavLink to='/hellosunie'>
                 <img alt='' src={sunie} className='sunie'/>
                </NavLink>
             </div>
 
             <div className='grid_item_projects'>
+                      <NavLink to='/jerichonursery'>
                     <div className='cashHouse_text'>
                             <h1>Jericho Nursery Website Revitalization</h1>         
                     </div>
-                      <NavLink to='/jerichonursery'>
                 <img alt='' src={cashHouse} className='cashHouse'/>
                       </NavLink>
      
             </div>
 
             <div className='grid_item_projects'>
+            <NavLink to='/collaborative4you'>
             <div className='cashHouse_text'>
                             <h1>Collaborative Counselling Design Work</h1>         
                     </div>
-            <NavLink to='/collaborative4you'>
                 <img alt='' src={chicago} className='sunie'/>
                </NavLink>
 
             </div>
 
             <div className='grid_item_projects'>
+            <NavLink to='/pilytix'>
             <div className='cashHouse_text'>
                             <h1>Pilytix Assesment </h1>         
                     </div>
-            <NavLink to='/pilytix'>
                 <img alt='' src={pilytix} className='sunie'/>
                </NavLink>
 
             </div>
             <div className='grid_item_projects'>
+            <NavLink to='/shinychecklist'>
             <div className='cashHouse_text'>
                             <h1>Shiny Pokemon Checklist</h1>         
                     </div>
-            <NavLink to='/shinychecklist'>
                 <img alt='' src={pokemon} className='sunie'/>
                </NavLink>
 

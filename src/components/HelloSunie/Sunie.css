@@ -424,6 +424,9 @@ margin: 1rem;
 }
 
 @media screen and (min-width: 1250px) {
+    .sunie_background_image::before{
+        height: 180vh;
+    }
     .project_top_text h1{
         font-size: 6rem;
     }

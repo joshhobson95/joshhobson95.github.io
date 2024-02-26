@@ -435,6 +435,9 @@ justify-content: center;
 }
 
 @media screen and (min-width: 1250px) {
+    .pilytix_background_image::before{
+        height: 180vh;
+    }
     .project_top_text h1{
         font-size: 6rem;
     }
