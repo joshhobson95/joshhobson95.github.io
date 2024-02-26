@@ -53,7 +53,7 @@ function Home() {
         </div>
 
 </div>
-<span>click me</span>
+
 <div className="white_square" onClick={toggleModalVisibility}>
   <p className='x'>x</p>
 </div>
