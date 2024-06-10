@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Modal.css';
 import logo from '../../assets/Other/logo.png';
-import pdf from '../../assets/Joshua_Hobson_CV_2024.pdf';
+import pdf from '../../assets/Joshua-Hobson-Resume-2024.pdf';
 import emailjs from 'emailjs-com';
 
 function Modal() {
@@ -11,7 +11,7 @@ function Modal() {
     const pdfPath = pdf;
     const link = document.createElement('a');
     link.href = pdfPath;
-    link.download = 'Josh_Hobson_Resume.pdf';
+    link.download = 'Joshua-Hobson-Resume-2024.pdf';
     link.click();
   };
 
