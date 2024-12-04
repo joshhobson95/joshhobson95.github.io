@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.13ef2c3d.css",
-    "main.js": "/static/js/main.07c9847a.js",
+    "main.css": "/static/css/main.8009471b.css",
+    "main.js": "/static/js/main.0c36aff4.js",
     "static/js/787.58d36d5e.chunk.js": "/static/js/787.58d36d5e.chunk.js",
     "static/media/lunar.png": "/static/media/lunar.7d2f6fa62e582a474c15.png",
     "static/media/cashHouse.jpg": "/static/media/cashHouse.2d24962bcdf9795f56c5.jpg",
+    "static/media/Home.png": "/static/media/Home.ac4415aa05b2f8320368.png",
     "static/media/chitown.jpg": "/static/media/chitown.2f141e79dcd3ff937451.jpg",
     "static/media/gardencal.png": "/static/media/gardencal.ca72a66e8356b37a25b9.png",
     "static/media/Pokemon.jpg": "/static/media/Pokemon.73d4f577ff05bf006a64.jpg",
     "static/media/Home1.png": "/static/media/Home1.4a40951ba016ee69de25.png",
     "static/media/Sunie-stock.jpg": "/static/media/Sunie-stock.df5ced58c342e19133a2.jpg",
+    "static/media/learning.png": "/static/media/learning.448fedacb387bf2970b1.png",
     "static/media/Santafe.jpg": "/static/media/Santafe.3cd313725e2424c81dbb.jpg",
+    "static/media/podcast.png": "/static/media/podcast.6bbeb31cd8edf2a6f822.png",
+    "static/media/blogs2.png": "/static/media/blogs2.3206a26583f7fdb5aebd.png",
+    "static/media/contact.png": "/static/media/contact.1e93a797a756d7bdf793.png",
     "static/media/editblog.png": "/static/media/editblog.f13bf5687dba20d90e81.png",
     "static/media/pilytix.jpg": "/static/media/pilytix.0e2db3ddeceed1752c78.jpg",
     "static/media/radio.png": "/static/media/radio.cfda04ebd1c65fa2d4ff.png",
@@ -18,9 +23,12 @@
     "static/media/Page.png": "/static/media/Page.66400d80fe9b6b469902.png",
     "static/media/mainpage.png": "/static/media/mainpage.16dfd28a775f5a6ce96a.png",
     "static/media/EventDetials.png": "/static/media/EventDetials.33170b62c1457e405ed8.png",
+    "static/media/learning2.png": "/static/media/learning2.d3a033662e44a9d2db88.png",
     "static/media/mobilehome.png": "/static/media/mobilehome.22999af322f9dda875c3.png",
     "static/media/customplugin.png": "/static/media/customplugin.1b477e0f1fc0b719cfbf.png",
     "static/media/bigicons.png": "/static/media/bigicons.c31d7a80f9f6ae8a443d.png",
+    "static/media/historyFull.png": "/static/media/historyFull.7ced1f628a8225e7d9f8.png",
+    "static/media/CRL-REMASTERED-LOGO-2024-31.png": "/static/media/CRL-REMASTERED-LOGO-2024-31.b0f5c38d2bd72b1295fc.png",
     "static/media/graphs.png": "/static/media/graphs.8acf6173d819f87bdc80.png",
     "static/media/metabox.png": "/static/media/metabox.a31559e418f104417cce.png",
     "static/media/home1.png": "/static/media/home1.5c8b4ce472f23f8a5bd1.png",
@@ -39,12 +47,12 @@
     "static/media/collab.png": "/static/media/collab.aeca2088c3c6e66488f8.png",
     "static/media/hello-sunie.png": "/static/media/hello-sunie.0792be94744b430a5f1d.png",
     "index.html": "/index.html",
-    "main.13ef2c3d.css.map": "/static/css/main.13ef2c3d.css.map",
-    "main.07c9847a.js.map": "/static/js/main.07c9847a.js.map",
+    "main.8009471b.css.map": "/static/css/main.8009471b.css.map",
+    "main.0c36aff4.js.map": "/static/js/main.0c36aff4.js.map",
     "787.58d36d5e.chunk.js.map": "/static/js/787.58d36d5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ef2c3d.css",
-    "static/js/main.07c9847a.js"
+    "static/css/main.8009471b.css",
+    "static/js/main.0c36aff4.js"
   ]
 }
