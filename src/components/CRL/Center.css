@@ -286,15 +286,11 @@ top: -8rem;
 .acf{
 margin: 1rem;
 }
-.customplugin{
-    width: 92vw;
+.learning{
+    width: 60vw;
     padding-top: 1rem;
 }
 .details{
-    width: 85vw;
-    padding-top: 1rem;
-}
-.customplugin{
     width: 85vw;
     padding-top: 1rem;
 }
@@ -644,8 +640,8 @@ margin: 1rem;
     .details {
         width: 20vw;
     }
-    .customplugin {
-        width: 45vw;
+    .learning {
+        width: 25vw;
         padding-top: 1rem;
     }
     .key_grid_one{

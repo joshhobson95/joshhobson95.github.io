@@ -1,15 +1,17 @@
 import React from 'react'
 import './Center.css'
-import mainpage from '../../assets/HelloSunie/mainpage.png'
-import metabox from '../../assets/HelloSunie/metabox.png'
 import jhlogo from '../../assets/Other/newJHlogo.png'
-import customplugin from '../../assets/HelloSunie/customplugin.png'
-import details from '../../assets/HelloSunie/details.png'
-import graphs from '../../assets/HelloSunie/graphs.png'
+
 
 import santafe from '../../assets/Other/Santafe.jpg'
 import crl_logo from '../../assets/CRL/CRL-REMASTERED-LOGO-2024-31.png'
-
+import learning from '../../assets/CRL/learning.png'
+import historyFull from '../../assets/CRL/historyFull.png'
+import learning2 from '../../assets/CRL/learning2.png'
+import blogs from '../../assets/CRL/blogs2.png'
+import contact from '../../assets/CRL/contact.png'
+import home from '../../assets/CRL/Home.png'
+import podcast from '../../assets/CRL/podcast.png'
 
 
 function Center() {
@@ -24,7 +26,7 @@ function Center() {
 
           <h1>Center for RelationaLearning</h1>
 
-          <p>I was welcomed by a team of brilliant developers to contribute to the creation of Hello crl, a cutting-edge SaaS product tailored for New Mexico utility companies and contractors. Our mission: to streamline schedules, manage billings, handle invoices, and cater to clientele needs with finesse. Collaborating closely with the team, we tackled intricate challenges head-on, crafting bespoke solutions to ensure Hello crl stands out from the competition, offering a unique draw</p>
+          <p>Another exciting project I spearheaded for the Center for RelationaLearning was the revival of their website. Leveraging WordPress's accessibility and the customization of classic HTML and JavaScript, I struck a middle ground that allowed for maximum customization as well as continued accessibility.</p>
         </div>
 
         
@@ -73,11 +75,12 @@ function Center() {
           <div className='key_grid_background'></div>
 
           <div className='key_grid_one'>
-            <h2>HTML Buildout</h2>
-            <p>In driving forward the Hellocrl project, I crafted HTML code, seamlessly integrating responsive design elements and optimizing the structure to enhance user experience. Utilizing my expertise in web development, I professionally employed shortcodes to inject HTML and PHP into the WordPress site, setting up the bare bones of the website with proficiency and attention to detail</p>
+            <h2>Starting Fresh</h2>
+            <p>Although we were able to use many of the assets that were on the previous website, I built this project from a completely BlankSlate. I used a WordPress theme called BlankSlate as my jumping-off point, created a Child Theme of BlankSlate and got to work. This allowed me the ability to write everything in HTML and CSS giving me full range to stick true to the design elements that were so carefully crafted and collaborated on with CRL.</p>
           <div className='key_grid_one_inner'>
               <div className='inner_square'>
-              <img className='mainpage' src={mainpage} alt=''/>
+              <img className='mainpage' src={home} alt=''/>
+  
 
 
               </div>
@@ -87,12 +90,12 @@ function Center() {
       </div>
 
                     <div className='key_grid_two'>
-                      <h2>MetaBox and ACF</h2>
-                      <p>Next, I elevated Metabox customization by implementing dynamic icons that change appearance based on received data, enhancing both the visual appeal and functionality of our site. Additionally, I spearheaded the creation of comprehensive custom post types and a robust data structure using Advanced Custom Fields (ACF), contributing significantly to Hellocrl's efforts in building a stellar product</p>
+                      <h2>Structured Soundly</h2>
+                      <p>This structure allowed many pages like the ones you see below to be possible. We reached for the stars with the design elements of this project and came up with some incredible and unique pages. I was quite fond of the history page, not only because the design I came up with was highly regarded among the CRL team, but also because it was the hardest to create with HTML and CSS. It was a challenge I was very proud to have completed.</p>
           <div className='key_grid_two_inner'>
           <div className='inner_square2'>
-          <img className='metabox' src={metabox} alt=''/>
-          {/* <img className='eventdetails' src={eventdetails} alt=''/> */}
+          <img className='metabox' src={historyFull} alt=''/>
+          <img className='eventdetails' src={contact} alt=''/>
           </div>
 
 
@@ -118,23 +121,24 @@ function Center() {
 
 <div className='splp_2'>
 <div className='splp_inner_1'>
-  <h3>Custom Plugin Solutions</h3>
+  <h3>Color and Content</h3>
   <p>
-  In the development of a custom WordPress plugin for the project, I innovatively designed and implemented an intuitive admin calendar feature. This dynamic tool not only allowed administrative users to schedule services, complete with the ability to remove items seamlessly, but also facilitated personalized email notifications, delivering carefully formatted tables containing selected data to recipients as per the client's unique preferences
+  Color, Graphics, and Visuals were very important to George Otero and the CRL team, and it was really fun incorporating their existing visuals with new themes that fit with the website. There was tons of color and style in the assets provided for me and I wanted this reflected in the project. I combined these assets with elements of my own to create pages like the one shown below; adding paintstrokes, brand colors, and logos into the webpages to help pull together the webpage.
   </p>
   <div className='customplugin_container'>
-  <img className='customplugin' src={customplugin} alt='' />
+  <img className='learning' src={learning} alt='' />
+  <img className='learning' src={learning2} alt='' />
   </div>
 </div>
 
 <div className='splp_inner_2'>
-  <h3>Handling and Graphing Data</h3>
+  <h3>Robust Infrastructure</h3>
   <p>
-  In overseeing the data direction for specific service and project views, I curated detailed pages that dynamically showcased information relevant to the selected service. Elevating the user experience, I crafted custom PHP functions to generate insightful graphs from scratch, seamlessly integrating them into the HTML and CSS structure, thereby delivering visually compelling representations of pertinent data tailored to each viewed service or project
+  Of course, this site was not only about its look but also about its functionality. Many things were missing from the old CRL site that needed to be added to be satisfactory to George and the CRL team, such as blogs and podcasts! Again relying on WordPress, I was able to create a streamlined and robust infrastructure for their blog pages, so that the CRL team could write blogs in WordPress as "Posts" and have them translated to HTML and CSS on the front end of their new site. Much care and design went into how those blogs were presented. There was also a podcast page added, where their Podbean-hosted podcasts will be automatically added as well as their summaries and album covers. 
   </p>
   <div className='graphing_container'>
-  <img className='details' src={details} alt=''/>
-  <img className='graphs' src={graphs} alt=''/>
+  <img className='details' src={blogs} alt=''/>
+  <img className='graphs' src={podcast} alt=''/>
   </div>
 </div>
 </div>
