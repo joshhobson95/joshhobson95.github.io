@@ -23,15 +23,15 @@ function Projects() {
         <div className='grid_outer'>
 
 
-        {/* <div className='grid_item_projects'>
+         <div className='grid_item_projects'>
             <div className='cashHouse_text'>
                             <h1>Center for Relational Learning Web Development</h1>         
                     </div>
-            <NavLink to='/hellosunie'>
+            <NavLink to='/relationalearning'>
                 <img alt='' src={santafe} className='sunie'/>
                </NavLink>
 
-            </div> */}
+            </div> 
 
 
             <div className='grid_item_projects'>

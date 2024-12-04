@@ -11,6 +11,7 @@ import Collab from "./components/Collab/Collab";
 import Pilytix from "./components/Pilytix/Pilytix";
 import Shiny from "./components/ShinyChecklist/Shiny";
 import Secret from "./components/Home/Secret";
+import Center from './components/CRL/Center';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   <Route path='/' element={<Home />} />
   <Route path='/skills' element={<Skills/>} />
   <Route path='/projects' element={<Projects/>} />
+  <Route path='/relationalearning' element={<Center/>} />
   <Route path='/jerichonursery' element={<Jericho/>} />
   <Route path='/hellosunie' element={<Sunie/>} />
   <Route path='/collaborative4you' element={<Collab/>} />
